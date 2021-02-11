@@ -53,7 +53,11 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       body: _loading
-          ? Center(child: Container(child: CircularProgressIndicator()))
+          ? Center(
+              child: Container(
+                child: CircularProgressIndicator(),
+              ),
+            )
           : Container(
               child: Column(
                 children: [
