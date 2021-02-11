@@ -31,6 +31,10 @@ dependencies:
   provider: ^4.3.2+3
   shared_preferences: ^0.5.12+4
   day_night_switch: ^0.0.2+1
+  http: ^0.12.2
+  cached_network_image: ^2.5.0
+  webview_flutter: ^1.0.7
+
 
 dev_dependencies:
   flutter_test:

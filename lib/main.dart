@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:moonlight/screens/article_news.dart';
 import 'package:moonlight/theme.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       routes: {
         HomePage.routeName: (context) => HomePage(),
-        SettingsPage.routeName: (context) => SettingsPage()
+        SettingsPage.routeName: (context) => SettingsPage(),
+        ArticleNews.routeName: (context) => ArticleNews()
       },
     );
   }
