@@ -1,6 +1,6 @@
 # BizzBuzz
 
-A new Flutter application with Dynamic Theme to read daily news along with options to choose the news category you want to read and read the full article in Web View. 
+### A new Flutter application with Dynamic Theme to read daily news along with options to choose the news category you want to read and read the full article in Web View. 
 
 ## Getting Started
 
